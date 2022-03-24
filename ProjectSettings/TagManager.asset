@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Enemy
+  - Water
+  - UI
+  - Tower
+  - Path
+  - Obstacle
+  - Tower Aggro
+  - HiddenEnemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 892358743
+    locked: 0
+  - name: Path
+    uniqueID: 570463219
+    locked: 0
+  - name: Enemies
+    uniqueID: 1382289639
+    locked: 0
+  - name: Towers
+    uniqueID: 222087385
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Projectiles
+    uniqueID: 4112024293
+    locked: 0
