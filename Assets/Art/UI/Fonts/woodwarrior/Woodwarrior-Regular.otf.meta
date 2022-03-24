@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 568de90c9b7697d4f86c14435ebd5cd1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Woodwarrior
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c5731988a2d37ff48bd9ff50e36b817a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
