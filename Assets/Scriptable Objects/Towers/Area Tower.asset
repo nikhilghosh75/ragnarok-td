@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4882cdd49be8a142a7ac74590b232ff, type: 3}
+  m_Name: Area Tower
+  m_EditorClassIdentifier: 
+  towerName: Berserker
+  towerDescription: 'Battle frenzy! The berserker attacks nearby undead in all directions. '
+  icon: {fileID: -8688521120937599428, guid: 6f3c1a3dc44b5da49892208a8979f26a, type: 3}
+  cost: 240
+  range: 0.5
+  radius: 0.27
+  offset: {x: 0, y: 0}
+  damageType: 0
+  isTrap: 0
+  prefab: {fileID: 7611363773922535479, guid: 2792692921882fc4dbfe11cf9adecd60, type: 3}
+  towerUpgrades:
+  - id: 0
+  - id: 1
+  towerPortraits:
+  - {fileID: -1819427309722511263, guid: bc7b351afaff5094cad02c68bc3206b9, type: 3}
+  - {fileID: 5772061173396582192, guid: 27f077c95abf8d848a04e83e69d9c8f7, type: 3}
+  towerSkins:
+  - {fileID: -3732607826745683861, guid: bc7b351afaff5094cad02c68bc3206b9, type: 3}
+  - {fileID: -2011293835129139369, guid: 27f077c95abf8d848a04e83e69d9c8f7, type: 3}
+  references:
+    version: 1
+    00000000:
+      type: {class: DamageUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        name: Sharpened Axe
+        description: 'If you take care of your weapons, they''ll take care of you.
+          Axes deal twice as much damage.  '
+        cost: 45
+        sellPriceChange: 0
+        sprite: {fileID: 21300000, guid: dd73b6d112c73004cb2b8e2a3ce00d6b, type: 3}
+        damageToAdd: 1
+    00000001:
+      type: {class: DamageUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        name: Slice n' Dice n' Burn
+        description: Burn!!!
+        cost: 300
+        sellPriceChange: 0
+        sprite: {fileID: 21300000, guid: df9acdc34714c074aa742fd22c2711bd, type: 3}
+        damageToAdd: 1

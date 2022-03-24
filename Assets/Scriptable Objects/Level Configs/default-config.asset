@@ -1,0 +1,705 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2029f95a4f9da746997af4a5d2d54e0, type: 3}
+  m_Name: default-config
+  m_EditorClassIdentifier: 
+  rounds:
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.8
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 35
+      timeBetweenEnemies: 0.8
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 25
+      timeBetweenEnemies: 0.8
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 5
+      timeBetweenEnemies: 0.8
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 1
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 35
+      timeBetweenEnemies: 0.15
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 18
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0.25
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 27
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 1
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 5
+      timeBetweenEnemies: 0.2
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 1
+    timeBetweenWaves: 1
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 15
+      timeBetweenEnemies: 0.1
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 15
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 1
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 4
+      timeBetweenEnemies: 0.3
+      pathIndex: 0
+      simultaneousStartingTime: 2
+    roundType: 1
+    timeBetweenWaves: 0.5
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.1
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.1
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 5
+      timeBetweenEnemies: 0.1
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0.2
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.1
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 14
+      timeBetweenEnemies: 0.2
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0.1
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 30
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 102
+      timeBetweenEnemies: 0.1
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 1
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 12
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 2
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 3
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 3.5
+    roundType: 1
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 15
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 5
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 50
+      timeBetweenEnemies: 0.3
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 23
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 49
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 15
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 9
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 15
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 12
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 82cab6995a3f69343be969d9046ec7e7, type: 3}
+      amount: 5
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 40
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 8
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 4992925126661404233, guid: 4a0fd2f108f4b45f996dca5f4e4d446c, type: 3}
+      amount: 12
+      timeBetweenEnemies: 0.3
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 80
+      timeBetweenEnemies: 0.3
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 4
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 4992925126661404233, guid: 4a0fd2f108f4b45f996dca5f4e4d446c, type: 3}
+      amount: 5
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 82cab6995a3f69343be969d9046ec7e7, type: 3}
+      amount: 15
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: b0d4e2711dfc94a41a8914e3fd3e65c2, type: 3}
+      amount: 6
+      timeBetweenEnemies: 0
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 40
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 82cab6995a3f69343be969d9046ec7e7, type: 3}
+      amount: 14
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8929bafc0c997b148b8136ebdd305269, type: 3}
+      amount: 16
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: b0d4e2711dfc94a41a8914e3fd3e65c2, type: 3}
+      amount: 7
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8929bafc0c997b148b8136ebdd305269, type: 3}
+      amount: 7
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 2669190358809333245, guid: f592a497564c84cabb092ef21be55b61, type: 3}
+      amount: 1
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 2
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 4992925126661404233, guid: 4a0fd2f108f4b45f996dca5f4e4d446c, type: 3}
+      amount: 25
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 484c6964c6448c947a2b823a866ff759, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 82cab6995a3f69343be969d9046ec7e7, type: 3}
+      amount: 23
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8d24b767852341b4a9ed871be5895432, type: 3}
+      amount: 4
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 1
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6dc8016d349abff49b9457f4435e21d7, type: 3}
+      amount: 100
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: c15faa2d106dca34dbe9abe57b7625af, type: 3}
+      amount: 60
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 6ae6ebe3d35ca984c8efa1e5ee585590, type: 3}
+      amount: 45
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 45
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 31ee66489173f0e42acfd2b48f663b0e, type: 3}
+      amount: 6
+      timeBetweenEnemies: 1
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 50
+      timeBetweenEnemies: 0.3
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 4992925126661404233, guid: 4a0fd2f108f4b45f996dca5f4e4d446c, type: 3}
+      amount: 15
+      timeBetweenEnemies: 0.3
+      pathIndex: 0
+      simultaneousStartingTime: 1
+    roundType: 1
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 31ee66489173f0e42acfd2b48f663b0e, type: 3}
+      amount: 9
+      timeBetweenEnemies: 1
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: b0d4e2711dfc94a41a8914e3fd3e65c2, type: 3}
+      amount: 8
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8929bafc0c997b148b8136ebdd305269, type: 3}
+      amount: 8
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8d24b767852341b4a9ed871be5895432, type: 3}
+      amount: 8
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 7428843767715159159, guid: 29f5db9eccc0a43dd80409dbb70752a4, type: 3}
+      amount: 2
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: b0d4e2711dfc94a41a8914e3fd3e65c2, type: 3}
+      amount: 15
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8929bafc0c997b148b8136ebdd305269, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 484c6964c6448c947a2b823a866ff759, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 2786028546887371159, guid: 5e0855db057e144d9b44d64cd238f532, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8707712112229556024, guid: eeaebb355aba04dd8bca9c5939dd221e, type: 3}
+      amount: 13
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 763296fcbaaaa8844872d171101c6086, type: 3}
+      amount: 160
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8d24b767852341b4a9ed871be5895432, type: 3}
+      amount: 6
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 82cab6995a3f69343be969d9046ec7e7, type: 3}
+      amount: 35
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: b0d4e2711dfc94a41a8914e3fd3e65c2, type: 3}
+      amount: 30
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8929bafc0c997b148b8136ebdd305269, type: 3}
+      amount: 25
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 32608c3fdf6624b43a443ccd64c62b6a, type: 3}
+      amount: 5
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 82cab6995a3f69343be969d9046ec7e7, type: 3}
+      amount: 140
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 1929581958302500383, guid: e97f98a0430cb42fbb8ebffe0b458aab, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: b0d4e2711dfc94a41a8914e3fd3e65c2, type: 3}
+      amount: 25
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8929bafc0c997b148b8136ebdd305269, type: 3}
+      amount: 32
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 7488257712697713608, guid: 0e3c44582a5c647308db12d1b165a125, type: 3}
+      amount: 7
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8d24b767852341b4a9ed871be5895432, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 31ee66489173f0e42acfd2b48f663b0e, type: 3}
+      amount: 15
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 82cab6995a3f69343be969d9046ec7e7, type: 3}
+      amount: 42
+      timeBetweenEnemies: 0.7
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8929bafc0c997b148b8136ebdd305269, type: 3}
+      amount: 17
+      timeBetweenEnemies: 0.6
+      pathIndex: 0
+      simultaneousStartingTime: 7
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8d24b767852341b4a9ed871be5895432, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.7
+      pathIndex: 0
+      simultaneousStartingTime: 9
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 31ee66489173f0e42acfd2b48f663b0e, type: 3}
+      amount: 14
+      timeBetweenEnemies: 0.8
+      pathIndex: 0
+      simultaneousStartingTime: 10
+    - enemyPrefab: {fileID: 8790205978598198568, guid: cc03ef565dd874842b9ccd293d4423de, type: 3}
+      amount: 2
+      timeBetweenEnemies: 0.6
+      pathIndex: 0
+      simultaneousStartingTime: 20
+    roundType: 1
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 8790205978598198568, guid: b0d4e2711dfc94a41a8914e3fd3e65c2, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8929bafc0c997b148b8136ebdd305269, type: 3}
+      amount: 10
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 8d24b767852341b4a9ed871be5895432, type: 3}
+      amount: 20
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 8790205978598198568, guid: 32608c3fdf6624b43a443ccd64c62b6a, type: 3}
+      amount: 18
+      timeBetweenEnemies: 0.3
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    - enemyPrefab: {fileID: 2265390410387223066, guid: 24fe3b81894394060aaca48917a6ca21, type: 3}
+      amount: 2
+      timeBetweenEnemies: 0.3
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0
+  - startingTime: 0
+    waves:
+    - enemyPrefab: {fileID: 7260847532780996655, guid: 38bd58536ef924b21813cf3369ec2697, type: 3}
+      amount: 1
+      timeBetweenEnemies: 0.5
+      pathIndex: 0
+      simultaneousStartingTime: 0
+    roundType: 0
+    timeBetweenWaves: 0
+    currencyOnEnd: 0

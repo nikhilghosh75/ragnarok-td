@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4882cdd49be8a142a7ac74590b232ff, type: 3}
+  m_Name: Spear Thrower
+  m_EditorClassIdentifier: 
+  towerName: Spear Thrower
+  towerDescription: 'Throws a spear at nearby undead. '
+  icon: {fileID: 7095699226653411415, guid: 0ceb4c7d55d1af849aa1466d00c786cb, type: 3}
+  cost: 170
+  range: 1
+  radius: 0.3
+  offset: {x: 0, y: 0}
+  damageType: 0
+  isTrap: 0
+  prefab: {fileID: 4606824991555566958, guid: 31e7f81be3acd804eb2e2b34458fa099, type: 3}
+  towerUpgrades:
+  - id: 0
+  - id: 1
+  towerPortraits:
+  - {fileID: 1978152981062475125, guid: 0ed1ac9ac3695634fa19230da42613d0, type: 3}
+  - {fileID: 3282396684799650456, guid: 1783957f3413e8a4c87e619a42b539da, type: 3}
+  towerSkins:
+  - {fileID: -7997756717330907499, guid: 0ed1ac9ac3695634fa19230da42613d0, type: 3}
+  - {fileID: 3083724358087291408, guid: 1783957f3413e8a4c87e619a42b539da, type: 3}
+  references:
+    version: 1
+    00000000:
+      type: {class: FireRateUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        name: Faster Arms
+        description: Throws 25% faster.
+        cost: 150
+        sellPriceChange: 0
+        sprite: {fileID: 21300000, guid: 11b3d432c442873499764d11d133edd5, type: 3}
+        fireRateMultiplier: 2.5
+    00000001:
+      type: {class: ProjectileHealthUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        name: Metal-Tipped Spears
+        description: New spears can damage 3 enemies per throw.
+        cost: 280
+        sellPriceChange: 0
+        sprite: {fileID: 21300000, guid: ae064d519404c5e47addca4efe588f08, type: 3}
+        projectileHealthUpgrade: 2

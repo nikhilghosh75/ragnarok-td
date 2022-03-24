@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4882cdd49be8a142a7ac74590b232ff, type: 3}
+  m_Name: Support Tower
+  m_EditorClassIdentifier: 
+  towerName: Statue of Freyja
+  towerDescription: A tribute to the goddess of love and war. Can bestow many blessings
+    upon  other units. Increases range and speed of nearby towers by 10%.
+  icon: {fileID: -3783032597360806671, guid: 62c12e1c9a9b6224e8a6988f6448709d, type: 3}
+  cost: 400
+  range: 2
+  radius: 0.3
+  offset: {x: -0.03, y: -0.1}
+  damageType: 0
+  isTrap: 0
+  prefab: {fileID: 6324907451403197262, guid: 8a034614a36584b4a8c5e9e402622d4c, type: 3}
+  towerUpgrades:
+  - id: 0
+  - id: 1
+  towerPortraits:
+  - {fileID: -4730506154006941553, guid: 440ced066566e554bb0534e023926edf, type: 3}
+  - {fileID: -6707324450365314607, guid: d65b66d3cfe30a446970f57cc3e825a8, type: 3}
+  towerSkins:
+  - {fileID: 3866706236601442546, guid: 440ced066566e554bb0534e023926edf, type: 3}
+  - {fileID: 9145941661817866906, guid: d65b66d3cfe30a446970f57cc3e825a8, type: 3}
+  references:
+    version: 1
+    00000000:
+      type: {class: SupportTowerUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        name: Godly Sight
+        description: Allows towers in range to target the invisible undead.
+        cost: 500
+        sellPriceChange: 0
+        sprite: {fileID: 21300000, guid: cb5837b657f51a440bc669cc80915aa8, type: 3}
+    00000001:
+      type: {class: SupportTowerUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        name: Arcane Boost
+        description: 'Freyja''s strength lends swiftness to nearby towers. '
+        cost: 685
+        sellPriceChange: 0
+        sprite: {fileID: 21300000, guid: 4c2819dc55b19aa40a5f5e49cf378974, type: 3}

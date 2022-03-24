@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b32a52336825346baeb4e901faf316, type: 3}
+  m_Name: Tower Collection
+  m_EditorClassIdentifier: 
+  towers:
+  - {fileID: 11400000, guid: bb72baaa188f6fa4d82e7dd8cd6d8367, type: 2}
+  - {fileID: 11400000, guid: 86a856317f05143cb81a5de4ffa1d415, type: 2}
+  - {fileID: 11400000, guid: 4d4fc9d5ab71b38428bd3ed77bfdc3f8, type: 2}
+  - {fileID: 11400000, guid: 9a91dc5e23286404cba30fcb3ecc872c, type: 2}
+  - {fileID: 11400000, guid: e90c4c640f7a98e4aa3d41ec2aea2eff, type: 2}
+  - {fileID: 11400000, guid: fdd4852a024028b4689460eaf2566017, type: 2}

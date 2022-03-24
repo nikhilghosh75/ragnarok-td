@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4882cdd49be8a142a7ac74590b232ff, type: 3}
+  m_Name: Explosive Tower
+  m_EditorClassIdentifier: 
+  towerName: Statue of Thor
+  towerDescription: A tribute to the god of thunder. Calls lightning down upon your
+    enemies.
+  icon: {fileID: 4945885671602379455, guid: 5a82fd8ce9b7dde47aa5982d447bc920, type: 3}
+  cost: 510
+  range: 1.2
+  radius: 0.3
+  offset: {x: 0, y: 0}
+  damageType: 0
+  isTrap: 0
+  prefab: {fileID: 4606824991555566958, guid: 53144a86754304a1081a5d6214f88083, type: 3}
+  towerUpgrades:
+  - id: 0
+  - id: 1
+  towerPortraits:
+  - {fileID: -8833093952684770730, guid: 0140abcfe8ab68842b2c6bf96977e658, type: 3}
+  - {fileID: 1481562493507750544, guid: 86f4bef491e142a44bce0ed05e1540eb, type: 3}
+  towerSkins:
+  - {fileID: 469806347173592309, guid: 0140abcfe8ab68842b2c6bf96977e658, type: 3}
+  - {fileID: 7613732859008963244, guid: 86f4bef491e142a44bce0ed05e1540eb, type: 3}
+  references:
+    version: 1
+    00000000:
+      type: {class: ProjectileSpeedUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        name: The Oncoming Storm
+        description: Thunderclouds gather, and the lightning comes ever faster.
+        cost: 300
+        sellPriceChange: 0
+        sprite: {fileID: 21300000, guid: df81e48569c8d514d87580453a08ccf6, type: 3}
+        speedMultiplier: 3
+    00000001:
+      type: {class: EnableStunUpgrade, ns: , asm: Assembly-CSharp}
+      data:
+        name: Shocked
+        description: Explosions shock and stun your enemies for just a moment.
+        cost: 1000
+        sellPriceChange: 0
+        sprite: {fileID: 21300000, guid: a34e2a79347c2154cbd6b1aaa4c51f58, type: 3}
+        stunTime: 0.94

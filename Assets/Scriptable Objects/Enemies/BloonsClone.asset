@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6cc140d6acdd54aba40af5b28ad42c, type: 3}
+  m_Name: BloonsClone
+  m_EditorClassIdentifier: 
+  enemies:
+  - name: Red
+    sprite: {fileID: 6519702540952640898, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 2
+    healthToChange: 1
+    camoflauged: 0
+    damageToDeal: 1
+  - name: Blue
+    sprite: {fileID: 2478852618846455511, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 2.8
+    healthToChange: 2
+    camoflauged: 0
+    damageToDeal: 2
+  - name: Green
+    sprite: {fileID: 1537112071271512177, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 3.6
+    healthToChange: 3
+    camoflauged: 0
+    damageToDeal: 3
+  - name: Yellow
+    sprite: {fileID: -5548593765943072850, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 6.4
+    healthToChange: 4
+    camoflauged: 0
+    damageToDeal: 4
+  - name: Pink
+    sprite: {fileID: -5330294238183091445, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 7
+    healthToChange: 5
+    camoflauged: 0
+    damageToDeal: 5
+  - name: Black
+    sprite: {fileID: 3491175107912945811, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 3.6
+    healthToChange: 6
+    camoflauged: 0
+    damageToDeal: 6
+  - name: Purple
+    sprite: {fileID: -1196830978254688040, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 6
+    healthToChange: 7
+    camoflauged: 0
+    damageToDeal: 7
+  - name: White
+    sprite: {fileID: 6038123453281767082, guid: 748face2835434b43a3e260f2bd21a2b, type: 3}
+    speed: 4
+    healthToChange: 8
+    camoflauged: 0
+    damageToDeal: 8
+  - name: Lead
+    sprite: {fileID: 6038123453281767082, guid: 748face2835434b43a3e260f2bd21a2b, type: 3}
+    speed: 2
+    healthToChange: 9
+    camoflauged: 0
+    damageToDeal: 9
+  - name: Zebra
+    sprite: {fileID: 7256178156288228573, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 3.6
+    healthToChange: 10
+    camoflauged: 0
+    damageToDeal: 10
+  - name: Rainbow
+    sprite: {fileID: 6020256422812137258, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 4.4
+    healthToChange: 11
+    camoflauged: 0
+    damageToDeal: 11
+  - name: Ceramic
+    sprite: {fileID: 6270316479803843035, guid: 97e99faa4272add48acddb21e14ca517, type: 3}
+    speed: 1
+    healthToChange: 22
+    camoflauged: 0
+    damageToDeal: 12

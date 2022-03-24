@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6cc140d6acdd54aba40af5b28ad42c, type: 3}
+  m_Name: BloonsCloneRegen
+  m_EditorClassIdentifier: 
+  enemies:
+  - name: Red Regen
+    sprite: {fileID: -1184432544054414634, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 2
+    healthToChange: 1
+    camoflauged: 0
+    damageToDeal: 1
+  - name: Blue Regen
+    sprite: {fileID: 7449441514732735568, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 2.8
+    healthToChange: 2
+    camoflauged: 0
+    damageToDeal: 2
+  - name: Green Regen
+    sprite: {fileID: 3879728594580694111, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 3.6
+    healthToChange: 3
+    camoflauged: 0
+    damageToDeal: 3
+  - name: Yellow Regen
+    sprite: {fileID: -2771656973851677807, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 6.4
+    healthToChange: 4
+    camoflauged: 0
+    damageToDeal: 4
+  - name: Pink Regen
+    sprite: {fileID: -2872904829285677137, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 7
+    healthToChange: 5
+    camoflauged: 0
+    damageToDeal: 5
+  - name: Black Regen
+    sprite: {fileID: 8671966541148442331, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 3.6
+    healthToChange: 6
+    camoflauged: 0
+    damageToDeal: 6
+  - name: Purple Regen
+    sprite: {fileID: 325902892228851065, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 6
+    healthToChange: 7
+    camoflauged: 0
+    damageToDeal: 7
+  - name: White Regen
+    sprite: {fileID: 1078195012313371232, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 4
+    healthToChange: 8
+    camoflauged: 0
+    damageToDeal: 8
+  - name: Lead Regen
+    sprite: {fileID: -2196530843483735944, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 2
+    healthToChange: 9
+    camoflauged: 0
+    damageToDeal: 9
+  - name: Zebra Regen
+    sprite: {fileID: 1314105021439832457, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 3.6
+    healthToChange: 10
+    camoflauged: 0
+    damageToDeal: 10
+  - name: Rainbow Regen
+    sprite: {fileID: -7595488503972289099, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 4.4
+    healthToChange: 11
+    camoflauged: 0
+    damageToDeal: 11
+  - name: Ceramic Regen
+    sprite: {fileID: -4280859216026381058, guid: 5c8dd29df1e3f4774a6f7efa7d9b19cb, type: 3}
+    speed: 1
+    healthToChange: 22
+    camoflauged: 0
+    damageToDeal: 12
